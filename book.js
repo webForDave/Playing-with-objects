@@ -1,22 +1,24 @@
+const bookTitle = "Alice\'s adventures in wonderland";
+const bookPubYear = 1865;
+const bookAuthor = 'Lewis Caroll';
+const bookISBN = 970056734810;
+
 const Book = class{
     constructor(
-        bookTitle,
-        bookPubYear,
-        bookAuthor,
-        bookISBN
+        title,
+        pubYear,
+        author,
+        ISBN
     ) {
-        this.bookTitle = bookTitle,
-        this.bookPubYear = bookPubYear,
-        this.bookAuthor = bookAuthor,
-        this.bookISBN = bookISBN
+        this.title = title;
+        this.pubYear = pubYear;
+        this.author = author;
+        this.ISBN = ISBN;
     }
 }
 
 let novel = new Book(
-    "Alice\'s adventures in (...)",
-    1865,
-    'Lewis Caroll',
-    970056734810
+    
 );
 
 
