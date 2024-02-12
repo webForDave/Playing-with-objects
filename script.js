@@ -25,3 +25,22 @@ console.log(userProfile); //outputs new object
 
 
 //BANKING
+
+const bankingAccount = {
+    accountNumber: 1234567899,
+    balance: 2500,
+    teansactionHistory: '',
+
+    withdrawFund: function(amount) {
+        this.balance -= amount
+    }
+
+    
+
+}
+
+console.log(bankingAccount);
+
+bankingAccount.withdrawFund(1000);
+
+console.log(bankingAccount);
