@@ -31,13 +31,14 @@ const bankingAccount = {
     balance: 2500,
     teansactionHistory: '',
 
+
     withdrawFund: function(amount) {
         this.balance -= amount
     },
 
     depositeFund: function(amount) {
         this.balance += amount
-    }
+    },
 
 }
 
