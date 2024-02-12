@@ -1,3 +1,5 @@
+//building object using class constructor blueprint
+
 const Person = class {
     constructor(
         name,
@@ -18,6 +20,20 @@ const Person = class {
     toggleNationality(change) {
         this.nationality = change
     }
+}
+
+//building pbject using function constructor blueprint
+
+function Car(
+    name,
+    model,
+    year,
+    color
+){
+    this.name = name,
+    this.model = model,
+    this.year = year,
+    this.color = color
 }
 
 export default Person
