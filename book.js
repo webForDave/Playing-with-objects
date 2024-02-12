@@ -18,7 +18,10 @@ const Book = class{
 }
 
 let novel = new Book(
-    
+    bookTitle,
+    bookPubYear,
+    bookAuthor,
+    bookISBN
 );
 
 
