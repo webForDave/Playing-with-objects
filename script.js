@@ -33,9 +33,11 @@ const bankingAccount = {
 
     withdrawFund: function(amount) {
         this.balance -= amount
-    }
+    },
 
-    
+    depositeFund: function(amount) {
+        this.balance += amount
+    }
 
 }
 
@@ -43,4 +45,5 @@ console.log(bankingAccount);
 
 bankingAccount.withdrawFund(1000);
 
-console.log(bankingAccount);
+console.log('Removed Fund:', bankingAccount);
+
