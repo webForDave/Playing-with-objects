@@ -14,4 +14,10 @@ const Person = class {
     toggleisSingle(change) {
         this.isSingle = change
     }
+
+    toggleNationality(change) {
+        this.nationality = change
+    }
 }
+
+export default Person
