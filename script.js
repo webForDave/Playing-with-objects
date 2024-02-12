@@ -18,7 +18,7 @@ console.log(userProfile)  //outputs initial object
 userProfile.changePassword(56789);     //changes password
 userProfile.changeProfilePicture('new.jpeg');  //changes profile photo 
 
-console.log(userProfile); //outputs new object
+// console.log(userProfile); //outputs new object
 
 
 
@@ -43,7 +43,7 @@ const bankingAccount = {
 console.log(bankingAccount);
 
 bankingAccount.withdrawFund(1000);   //withdraws ammount from balance
-console.log('Withdrew Fund:', bankingAccount);
+// console.log('Withdrew Fund:', bankingAccount);
 
 bankingAccount.depositeFund(3000)   //deposite ammount to balance
-console.log('Deposited fund:', bankingAccount);
+// console.log('Deposited fund:', bankingAccount);
