@@ -42,6 +42,5 @@ function Car(
     }
 }
 
-console.log(Car);
 
-export default Person
+export default Person; Car
