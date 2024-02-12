@@ -19,3 +19,9 @@ userProfile.changePassword(56789);     //changes password
 userProfile.changeProfilePicture('new.jpeg');  //changes profile photo 
 
 console.log(userProfile); //outputs new object
+
+
+
+
+
+//BANKING
