@@ -43,7 +43,8 @@ const bankingAccount = {
 
 console.log(bankingAccount);
 
-bankingAccount.withdrawFund(1000);
+bankingAccount.withdrawFund(1000);   //withdraws ammount from balance
+console.log('Withdrew Fund:', bankingAccount);
 
-console.log('Removed Fund:', bankingAccount);
-
+bankingAccount.depositeFund(3000)   //deposite ammount to balance
+console.log('Deposited fund:', bankingAccount);
