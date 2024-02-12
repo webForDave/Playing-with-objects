@@ -18,3 +18,6 @@ let novel = new Book(
     'Lewis Caroll',
     970056734810
 );
+
+
+console.log(novel);
