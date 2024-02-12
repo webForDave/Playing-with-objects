@@ -4,11 +4,18 @@ const userProfile = {
     password: 123456,
     profilePicture: 'dave.jpeg',
 
-    changePawword: function(newPassword) {
+    changePassword: function(newPassword) {
         this.password = newPassword
     },
 
-    changeProgilePicture: function(newPhoto) {
+    changeProfilePicture: function(newPhoto) {
         this.profilePicture = newPhoto
     }
-}
+};
+
+console.log(userProfile)  //outputs initial object
+
+userProfile.changePassword(56789);     //changes password
+userProfile.changeProfilePicture('new.jpeg');  //changes profile photo 
+
+console.log(userProfile); //outputs new object
