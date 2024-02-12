@@ -22,25 +22,5 @@ const Person = class {
     }
 }
 
-//building pbject using function constructor blueprint
 
-function Car(
-    name,
-    model,
-    year,
-    color
-){
-    this.name = name,
-    this.model = model,
-    this.year = year,
-    this.color = color,
-
-    {
-        toggleColor: function(change) {
-            this.color = change
-        }
-    }
-}
-
-
-export default Person; Car
+export default Person
