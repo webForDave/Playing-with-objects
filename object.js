@@ -33,7 +33,15 @@ function Car(
     this.name = name,
     this.model = model,
     this.year = year,
-    this.color = color
+    this.color = color,
+
+    {
+        toggleColor: function(change) {
+            this.color = change
+        }
+    }
 }
+
+console.log(Car);
 
 export default Person
