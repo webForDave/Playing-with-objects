@@ -30,6 +30,7 @@ const content = `
     <main>
         <article>
             <h1>This is a car details page</h1>
+            <p>This is a ${vehicle.color} ${vehicle.name} ${vehicle.model} car made in ${vehicle.year}</p>
         </article>
     </main>
 `;
