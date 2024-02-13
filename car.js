@@ -25,3 +25,5 @@ const vehicle = new Car(
 )
 
 console.log(vehicle);
+
+const content = ``;
