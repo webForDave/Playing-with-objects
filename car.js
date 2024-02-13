@@ -34,3 +34,5 @@ const content = `
         </article>
     </main>
 `;
+
+document.body.innerHTML = content;
