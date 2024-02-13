@@ -26,4 +26,10 @@ const vehicle = new Car(
 
 console.log(vehicle);
 
-const content = ``;
+const content = `
+    <main>
+        <article>
+            <h1>This is a car details page</h1>
+        </article>
+    </main>
+`;
